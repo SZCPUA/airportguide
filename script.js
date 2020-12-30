@@ -20,22 +20,17 @@ new Docute({
     sidebar: [{
             /*第一组*/
 
-            title: '包和类',
+            title: '常用协议简介',
             children: [{
-                    title: '实例1',
-                    link: '/part1/examples1'
-                }, {
-                    title: '斐波那契数列',
-                    link: '/part1/fibonacci'
-                }, {
-                    title: '应用题',
-                    link: '/part1/applications'
-                }, {
-                    title: 'Scanner的用法',
-                    link: '/part1/input'
-                },
-
-            ]
+                title: 'Shadowsocks(R)',
+                link: '/part1/shadowsocks'
+            }, {
+                title: 'V2Ray',
+                link: '/part1/v2ray'
+            }, {
+                title: 'Trojan',
+                link: '/part1/trojan'
+            }, ]
         }, /*开始*/
 
     ],
