@@ -31,7 +31,14 @@ new Docute({
                 title: 'Trojan',
                 link: '/part1/trojan'
             }, ]
-        }, /*开始*/
+        }, /*开始*/ {
+
+            title: '客户端使用教程',
+            children: [{
+                title: 'Windows SSR',
+                link: '/part2/windows'
+            }]
+        },
 
     ],
 })
